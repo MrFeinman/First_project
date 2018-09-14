@@ -1,4 +1,19 @@
-h1 {
-    color: aqua;
-    font-size: 100px; 
+.Introducing-Something-hot {
+  width: 337px;
+  height: 112px;
+  font-family: SegoeWPN;
+  font-size: 45px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
 }
+
+.Introducing-Something-hot .text-style-1 {
+  font-size: 65px;
+  font-weight: 600;
+}
+
