@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-size: 100%
+    
 }
 
 nav {
@@ -40,6 +42,13 @@ a:hover {
     margin-left: 219px;
     margin-right: 839px;
     margin-top: 56px;
+    vertical-align: top; 
+}
+.coffeban {
+    margin-left: 219px;
+    margin-right: 839px;
+    margin-top: 56px;
     vertical-align: top;
-    
-}    
+    width: 344px;
+    height: 345px;
+}

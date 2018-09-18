@@ -4,19 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Maket</title>
-    <link rel="stylesheet" href="../css/style.css">
+ 	<style>
+ 	body {
+		background: #000 url(backg.png); /* Фоновый цвет и фоновый рисунок*/
+		color: #fff; /*Цвет текста на странице*/
+		background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+	}
+   </style>
+    <link rel="stylesheet" href="../css/style.css" >
 </head>
-
-<style>
-    body {
-        background: #333;
-        /* Цвет фона */
-        color: #fc0;
-        /* Цвет текста */
-    }
-
-</style>
-
+<div class="back">
     <header id="top_header">
         <div class="Logo">
             <img src="..\img\logo.png" alt="Leo-logo" class="logopng">
@@ -36,7 +34,9 @@
             </nav>
         </div>
 
-        <div id="banner"></div>
+        <div id="banner">
+        <img src="..\img\cofe.png" alt="coffe" class="coffeban">
+        </div>
     </header>
     <main>
         <section>
@@ -131,5 +131,6 @@ Owner, Lorem Ipsum
 
 
 © cssauthor.com
+    </div>
 
 </html>
