@@ -1,32 +1,45 @@
-.Introducing-Something-hot {
-  width: 337px;
-  height: 112px;
-  font-family: SegoeWPN;
-  font-size: 45px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
+body {
+    margin: 0;
 }
 
-.Introducing-Something-hot .text-style-1 {
-  font-size: 65px;
-  font-weight: 600;
+nav {
+    padding: 55px;
+    margin-right: 174px;
+    overflow: hidden;
+    font-size: 23px;
+    display: block;
+    text-align: center;
+    
+    
 }
 
-.Solutions-Products-Portfolio-Contact li {
-  width: 476px;
-  height: 19px;
-  font-family: SegoeWPN;
-  font-size: 23px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: justify;
-  color: #ffffff;
-  display: inline;
+ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    float: right;
+    display: block;
+}
+
+a {
+    padding: 0 20px;
+    display: block;
+    color: #fff;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Lpng {
+    margin-left: 219px;
+    margin-right: 839px;
+    margin-top: 56px;
+    vertical-align: top;
+    
+}    
